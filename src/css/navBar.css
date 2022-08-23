@@ -1,5 +1,32 @@
 .nav_ribbon {
+    z-index: 1;
     margin-top: 30px;
     height: 20px;
     background-color: #040128;
+}
+
+.navBar-words-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_logo {
+    height: 64px;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar-words {
+    font-family: 'marckScript', sans-serif;
+    font-size: 48px;
+    color: #DB932D;
+    display: flex;
+    align-items: center;
 }
